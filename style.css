@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    color: #333;
+}
+
+header{
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.python{
+    height: 40px;
+    width: auto;;
+}
+
+.Lc{
+    height: 40px;
+    width: auto;
+}
+
+.web{
+    height: 40px;
+    width: auto;;
+}
+
+.JavaScrip{
+    height: 40px;
+    width: auto;;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.ma-photo{
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+#menu-toggle{
+    font-size: 24px;
+    background: none;
+    border :
+    color: white;
+    cursor: pointer;
+    display: block;
+
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    padding: 10px;
+    border-top: 1px solid;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    display: none;
+}
+
+.menu.open{
+    display: block;
+}
