@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../exercices"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../mon appli web"
+		},
+		{
+			"path": "../projet-employes/node_modules"
+		},
+		{
+			"path": "../projet-employes/public"
+		},
+		{
+			"path": "../projet-employes/views"
+		}
+	],
+	"settings": {}
+}
