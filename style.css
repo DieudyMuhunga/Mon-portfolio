@@ -14,9 +14,14 @@ header{
 
 }
 
-.php{
+.{
     height: 40px;
     width: auto;;  
+}
+
+.php{
+    height: 40px;
+    width: auto;
 }
 
 .python{
@@ -31,7 +36,7 @@ header{
 
 .mysql{
     height: 40px;
-    width: auto;;
+    width: auto;
 }
 
 .web{
