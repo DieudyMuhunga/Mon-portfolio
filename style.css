@@ -14,6 +14,11 @@ header{
 
 }
 
+.php{
+    height: 40px;
+    width: auto;;  
+}
+
 .python{
     height: 40px;
     width: auto;;
@@ -22,6 +27,11 @@ header{
 .Lc{
     height: 40px;
     width: auto;
+}
+
+.mysql{
+    height: 40px;
+    width: auto;;
 }
 
 .web{
