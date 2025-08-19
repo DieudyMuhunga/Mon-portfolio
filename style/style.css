@@ -1,32 +1,14 @@
-body{
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    color: #333;
-}
-
-header{
-    background: #333;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-
-}
-
-.{
-    height: 40px;
-    width: auto;;  
-}
-
-.php{
-    height: 40px;
-    width: auto;
+.accueil{
+    background-image: url("../image/accueil.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .python{
     height: 40px;
-    width: auto;;
+    width: auto;
 }
 
 .Lc{
@@ -34,22 +16,24 @@ header{
     width: auto;
 }
 
-.mysql{
+.web{
+    background: black;
     height: 40px;
     width: auto;
 }
 
-.web{
+.Js{
     height: 40px;
-    width: auto;;
+    width: auto;
 }
 
-.JavaScrip{
+.Php{
     height: 40px;
-    width: auto;;
+    width: auto;
 }
 
-.logo{
+.Mysql{
+    background: black;
     height: 40px;
     width: auto;
 }
@@ -57,42 +41,6 @@ header{
 .ma-photo{
     height: 120px;
     width: auto;
-    border-radius: 50%;
+    border: 50%;
     box-shadow: rgba(0, 0, 0, 0.2);
-}
-
-#menu-toggle{
-    font-size: 24px;
-    background: none;
-    border :
-    color: white;
-    cursor: pointer;
-    display: block;
-
-}
-
-.menu ul{
-    display: flex;
-    list-style: none;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-}
-
-.menu li{
-    padding: 10px;
-    border-top: 1px solid;
-}
-
-.menu a{
-    color: white;
-    text-decoration: none;
-}
-
-.menu{
-    display: none;
-}
-
-.menu.open{
-    display: block;
 }
