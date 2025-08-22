@@ -1,3 +1,5 @@
+/*fond d'arrère plan*/
+
 .accueil{
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@
     overflow: hidden;
     
 }
+
+/*emplacement langages*/
 
 .python{
     height: 40px;
@@ -49,6 +53,8 @@
     box-shadow: rgba(0, 0, 0, 0.2);
 }
 
+/* page de presentation*/
+
 .presentation{
     display: inline-block;
     padding: 2px 50px;
@@ -58,6 +64,5 @@
     text-decoration: none;
     line-height: 40px;
     font-size: 17px;
-
 
 }
