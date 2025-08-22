@@ -1,8 +1,13 @@
 .accueil{
-    background-image: url("../image/accueil.jpg");
-    background-size: cover;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom right,#123
+    ,#125, #111);
+    display: block;
+    justify-content: left;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
     
 }
 
@@ -17,7 +22,6 @@
 }
 
 .web{
-    background: black;
     height: 40px;
     width: auto;
 }
@@ -43,4 +47,17 @@
     width: auto;
     border: 50%;
     box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.presentation{
+    display: inline-block;
+    padding: 2px 50px;
+    background: #4b1000;
+    color: bisque;
+    border-radius: 30px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 17px;
+
+
 }
