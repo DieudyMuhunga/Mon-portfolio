@@ -86,6 +86,8 @@ header{
 
 }
 
+/* Gestion du menu responsive */
+
 #menu-toggle{
     font-size: 24px;
     background: none;
