@@ -3,18 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mon-portfolio</title>
+        <title>Mon Portfolio</title>
         <link rel="stylesheet" href="style/style.css">
     </head>
 
     <body>
 
-        <!-- mon menu -->
+        <!-- Header -->
         <header>
-            <h1>Deudy-Mhg</h1>
-            <nav id="menu" class="menu">
+            <h2>Dieudy Mhg</h2>
+            <nav>
                 <ul>
-                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#apropos">À propos</a></li>
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#competences">Compétences</a></li>
                     <li><a href="#devise">Devise</a></li>
@@ -23,78 +23,74 @@
             </nav>
         </header>
 
-        <!-- section a propos de moi -->
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Bienvenue sur mon portfolio</h1>
+            <p>Découvrez mes projets, compétences et ma passion pour le développement web.</p>
+            <a href="#projets">Voir mes projets</a>
+        </section>
 
-        <div>
-            <section id="apropos">
-                <h2>A propos de moi:</h2>
-                <p>Je suis développeur web passionné. J'apprends plusieurs langages de programmation et j'aime créer des projets modernes.</p>
-                <img src="image/MaPhoto.jpg" alt="Ma Photo" class="ma-photo">
-            </section>
-        </div>
+        <!-- À propos -->
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <p>Je suis développeur web full stack & mobile passionné. J'apprends plusieurs langages de programmation et j'aime créer des projets modernes et intéractifs.</p>
+            <img src="image/MaPhoto.jpg" alt="Ma Photo" class="ma-photo">
+        </section>
 
-        <!-- section projets -->
-
+        <!-- Projets -->
         <section id="projets">
-            <h2>Mes Projets:</h2>
-            <div class="projet containt">
-                <div class="prjet card">
-                    <h3>projet 1</h3>
+            <h2>Mes Projets</h2>
+            <div class="projets-container">
+                <div class="projet-card">
+                    <h3>Projet 1</h3>
                     <p>Site web de portfolio personnel</p>
                 </div>
 
-                <div class="prjet card">
-                    <h3>projet 2</h3>
+                <div class="projet-card">
+                    <h3>Projet 2</h3>
                     <p>Application web de gestion du personnel</p>
                 </div>
 
-                <div class="prjet card">
-                    <h3>projet 3</h3>
+                <div class="projet-card">
+                    <h3>Projet 3</h3>
                     <p>Calculatrice</p>
                 </div>
 
-                <div class="prjet card">
-                    <h3>projet 4</h3>
+                <div class="projet-card">
+                    <h3>Projet 4</h3>
                     <p>Application web d'inscription universitaire</p>
                 </div>
             </div>
         </section>
 
-        <!-- section competences -->
-
+        <!-- Compétences -->
         <section id="competences">
-            <h2>Mes Compétences:</h2>
+            <h2>Mes Compétences</h2>
             <ul>
-                <li>HTML/CSS - 70%</li>
-                <li>JavaScript - 40%</li>
-                <li>Python - 50%</li>
-                <li>PHP - 20%</li>
-                <li>SQL - 30%</li>
-                <li>Java - 30%</li>
+                <li data-percent="70%">HTML/CSS</li>
+                <li data-percent="50%">JavaScript</li>
+                <li data-percent="60%">Python</li>
+                <li data-percent="40%">PHP</li>
+                <li data-percent="50%">SQL</li>
+                <li data-percent="45%">Java</li>
             </ul>
         </section>
 
-        <section>
-           <h2>Devise:</h2>
-            <p>Chaque ligne de code est comme une opportunité d'apprentissage et chaque projet comme un defi à relever</p> 
+        <!-- Devise -->
+        <section id="devise">
+            <h2>Devise</h2>
+            <p>Chaque ligne de code est une opportunité d'apprentissage et chaque projet un défi à relever.</p>
         </section>
 
-        <!-- section contact -->
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter via email : <a href="mailto:dieudymhg@gmail.com">dieudymhg@gmail.com</a></p>
+        </section>
 
-        <section id="contact">
-            <h2>Contact:</h2>
-            <p>Vous pouvez me contacter via email: <a href="mailto:dieudymhg@gmail.com">dieudymhg@gmail.com</a></p>
-        </section><br><br>
-
-
-        <!-- diffent image des langanges de programmation -->
-
-        
-
-        <div class="logo">
-            <img src="image/langages.png" alt="">
-        </div>
-        
+        <footer>
+            <p>&copy; 2026 Deudy-Mhg. Tous droits réservés.</p>
+        </footer>
 
         <script src="script/script.js"></script>
     </body>
