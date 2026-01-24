@@ -238,18 +238,19 @@ footer {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .projets-container {
+    header {
         flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .projet-card {
-        flex: 1 1 100%;
+        align-items: center;
+        text-align: center;
     }
 
     header nav ul {
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
     }
 
     .hero h1 {
@@ -260,9 +261,18 @@ footer {
         font-size: 1rem;
     }
 
-    .ma-photo {
-        width: 100px;
-        height: 100px;
+    .projets-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .projet-card {
+        flex: 1 1 100%;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
     }
 
     .logos img {
@@ -270,7 +280,27 @@ footer {
         height: 60px;
     }
 
-    #competences li {
-        width: 120px;
+    .contact {
+        padding: 2rem;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+
+    .contact h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact p {
+        font-size: 1rem;
+    }
+
+    .contact a {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 1rem;
+        font-size: 0.8rem;
     }
 }
